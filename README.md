@@ -38,6 +38,6 @@ You can view the above help by using the -h in command line.
 3. Support for Network Device Telemetry
 4. GUI for Configuration/Data representation
    
-Again this is a draft version for presenting the operation idea, hoppfuly more to come :-)
+Again this is a draft version for presenting the operation idea, hopefuly more to come :-)
 
 All Feedback/help is welcome, to move this project forward.
