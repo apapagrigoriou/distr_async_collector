@@ -82,7 +82,6 @@ def t_logging_error_callback(error):
 
 # Test function that uses the fixture
 def test_log_proc(opmessage,res):
-    global qlogres
     try:
         with multiprocessing.Manager() as procman:
             logq = procman.Queue()
@@ -98,4 +97,5 @@ def test_log_proc(opmessage,res):
     except Exception as exc:
         assert False
     else:
+		global qlogres
         assert qlogres == res
