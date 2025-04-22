@@ -97,5 +97,4 @@ def test_log_proc(opmessage,res):
     except Exception as exc:
         assert False
     else:
-        global qlogres
         assert qlogres == res
